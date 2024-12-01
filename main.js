@@ -86,3 +86,34 @@
         const bulb=document.querySelector("#bulb");
         bulb.src=bulb.src.includes("anime.jpeg")?"dragon.jpeg":"anime.jpeg";
        }*/
+      
+     //10.Calculator
+
+       function add(){
+       const num1=document.querySelector(".num1").value;
+       const num2=document.querySelector(".num2").value;
+       const sum=parseFloat(num1)+parseFloat(num2);
+       const res=document.querySelector("#ans");
+       res.textContent=`Answer of the summation is ${sum}`
+      }
+       function sub(){
+        const num1=document.querySelector(".num1").value;
+        const num2=document.querySelector(".num2").value;
+        const sub=parseFloat(num1)-parseFloat(num2);
+        const res=document.querySelector("#ans");
+        res.textContent=`Answer of the subtraction is ${sub}`
+       }
+       function mul(){
+        const num1=document.querySelector(".num1").value;
+        const num2=document.querySelector(".num2").value;
+        const mul=parseFloat(num1)*parseFloat(num2);
+        const res=document.querySelector("#ans");
+        res.textContent=`Answer of the multiplication is ${mul}`
+       }
+       function divi(){
+        const num1=document.querySelector(".num1").value;
+        const num2=document.querySelector(".num2").value;
+        const divi=parseFloat(num1)/parseFloat(num2);
+        const res=document.querySelector("#ans");
+        res.textContent=`Answer of the division is ${divi}`
+       }
