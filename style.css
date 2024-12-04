@@ -10,11 +10,7 @@
     border: 2px solid black;
     border-radius: 5px;
   }
-  .mybtnA:hover {
-    border-bottom: 5px solid #3e3d3f;
-    background-color: rgb(220, 215, 215);
- } 
-
+  
   .mybtnS{
     background-color:rgb(174, 169, 169); 
     color:black;
@@ -22,11 +18,7 @@
     border: 2px solid black;
     border-radius: 5px;
   }
-  .mybtnS:hover {
-    border-bottom: 5px solid #3e3d3f;
-    background-color: rgb(220, 215, 215);
- } 
-
+  
   .mybtnM{
     background-color:rgb(174, 169, 169); 
     color:black;
@@ -34,11 +26,7 @@
     border: 2px solid black;
     border-radius: 5px;
   }
-  .mybtnM:hover {
-    border-bottom: 5px solid #3e3d3f;
-    background-color: rgb(220, 215, 215);
- } 
-
+  
   .mybtnD{
     background-color:rgb(174, 169, 169); 
     color:black;
@@ -46,7 +34,9 @@
     border: 2px solid black;
     border-radius: 5px;
   }
-  .mybtnD:hover {
+  .hov:hover {
+    color:brown;
     border-bottom: 5px solid #3e3d3f;
-    background-color: rgb(220, 215, 215);
+    border-color: blue;
+    background-color:aquamarine;
  } 
